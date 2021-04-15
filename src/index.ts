@@ -16,7 +16,7 @@ import {
   SCD30_CMD_SOFT_RESET
 } from './constants';
 
-const DEFAULT_I2C_BUS_NUMBER = 1;
+const DEFAULT_I2C_BUS_NUMBER = 3;
 
 type Measurement = {
   co2Concentration: number;
